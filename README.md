@@ -94,7 +94,3 @@ The project covers a range of fundamental React concepts and techniques. Each gi
 - **Outputting List Data Dynamically**
   - Date: Mon Jan 15 19:44:47 2024
   - Description: Dynamically rendering lists of data in React.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
