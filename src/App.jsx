@@ -17,7 +17,7 @@ function App() {
   console.log("App is executed");
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -68,7 +68,7 @@ function App() {
           )}
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
