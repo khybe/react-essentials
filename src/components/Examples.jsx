@@ -1,19 +1,26 @@
+// Import the useState hook from React
 import { useState } from "react";
 
+// Import TabButton, Section, Tabs, and EXAMPLES from specified file paths
 import TabButton from "../components/TabButton.jsx";
 import Section from "./Section.jsx";
 import Tabs from "./Tabs.jsx";
 import { EXAMPLES } from "../data.js";
 
+// Define the Examples component
 export default function Examples() {
+  // State hook to manage the selected topic
   const [selectedTopic, setSelectedTopic] = useState();
 
+  // Handler function to update the selected topic
   function handleSelect(selectedButton) {
     setSelectedTopic(selectedButton);
   }
 
+  // Default content if no topic is selected
   let content = <p>Please, select a topic.</p>;
 
+  // Render content based on the selected topic
   if (selectedTopic) {
     content = (
       <div id="tab-content">
@@ -26,11 +33,14 @@ export default function Examples() {
     );
   }
 
+  // Render the Examples component
   return (
     <Section title="Examples" id="examples">
+      {/* Render Tabs component with TabButtons and dynamic content */}
       <Tabs
         buttons={
           <>
+            {/* Render TabButtons for each topic */}
             <TabButton
               isSelected={selectedTopic === "components"}
               onClick={() => handleSelect("components")}
@@ -58,6 +68,7 @@ export default function Examples() {
           </>
         }
       >
+        {/* Render content based on the selected topic */}
         {content}
       </Tabs>
     </Section>

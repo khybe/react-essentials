@@ -1,8 +1,10 @@
+// Import images for the different core concepts
 import componentsImg from "./assets/components.png";
 import propsImg from "./assets/config.png";
 import jsxImg from "./assets/jsx-ui.png";
 import stateImg from "./assets/state-mgmt.png";
 
+// Define an array of core concepts with their respective details
 export const CORE_CONCEPTS = [
   {
     image: componentsImg,
@@ -30,6 +32,7 @@ export const CORE_CONCEPTS = [
   },
 ];
 
+// Define examples for each core concept
 export const EXAMPLES = {
   components: {
     title: "Components",
