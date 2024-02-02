@@ -1,10 +1,6 @@
 # React Essentials Webpage
 
-This project is a detailed practice project for mastering React essential concepts. It is part of an online course on Udemy by instructor Maximilian Schwarzmüller. The application is designed as a webpage that serves as a practical resource for learning and practicing React fundamentals.
-
-## Purpose
-
-The purpose of this project is to provide hands-on practice with core React concepts such as components, state, props, JSX, and more. It is structured as a series of components, each focused on a specific core concept. The project is organized in a way that allows users to interact with and understand these concepts through a user-friendly webpage.
+A practical resource for mastering essential React concepts such as components, state, props, JSX, and more. This project provides hands-on experience in building applications, allowing you to explore the fundamental concepts through a user-friendly webpage structure.
 
 ## Features
 
@@ -21,9 +17,10 @@ The purpose of this project is to provide hands-on practice with core React conc
 3. Run `npm run dev` to launch the React development server.
 4. Open your browser and navigate to `http://localhost:5173/` to explore the React Essentials Webpage.
 
-## Udemy Course
+## Credits
 
-This project is part of the Udemy course "React - The Complete Guide (incl Hooks, React Router, Redux)" by Maximilian Schwarzmüller. For a more in-depth understanding of React and its advanced features, consider enrolling in the course.
+- **Instructor:** Maximilian Schwarzmüller
+- **Course:** [React - The Complete Guide 2024 (incl. React Router & Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 
 ## License
 
